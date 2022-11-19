@@ -12,28 +12,28 @@ Console.WriteLine("Напишите третье число");
 str = Console.ReadLine();
 int c = int.Parse(str);
 int max = int.Parse(str);
-if(a > b)
+if(a > b && b > c)
 {
-    a = max;
+    max = a;
 }
 else
 {
-    b = max;
+    max = b;
 }
-if(b > c)
+if(c > a && a > b)
 {
-    b = max;
-}
-else
-{
-    c = max;
-}
-if(c > a)
-{
-    c = max;
+    max = c;
 }
 else
 {
-    a = max;
+    max = a;
+}
+if(b > a && a > c)
+{
+    max = b;
+}
+else
+{
+    max = a;
 }
 Console.WriteLine("максимальное число " + max);
