@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Введите размер массива  ");
+﻿// Задача 38: Задайте массив вещественных чисел. Найдите разницу между 
+// максимальным и минимальным элементов массива.
+
+Console.WriteLine("Введите размер массива  ");
 int size = Convert.ToInt32(Console.ReadLine());
 double[] numbers = new double[size];
 Numbers(numbers);
