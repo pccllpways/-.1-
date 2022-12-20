@@ -46,7 +46,7 @@ Console.Write("Введите длину строк: ");
 int line = int.Parse(Console.ReadLine());
 Console.Write("Введите длину столбцов: ");
 int column = int.Parse(Console.ReadLine());
-Console.Write("Введите число проверки: ");
+Console.Write("Введите число для проверки: ");
 int num = int.Parse(Console.ReadLine());
 int[,] array = GetArray(line, column, 0, 8);
 PrintArray(array);
