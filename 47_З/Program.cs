@@ -25,7 +25,6 @@ void PrintArray(double[,] array)
         Console.WriteLine();
     }
 }
-Console.Clear();
 Console.Write("Введите длину строк: ");
 int line = int.Parse(Console.ReadLine());
 Console.Write("Введите длину столбцов: ");
