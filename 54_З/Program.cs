@@ -1,4 +1,7 @@
-﻿int[,] GetArray(int m, int n, int min, int max)
+﻿// Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по 
+// убыванию элементы каждой строки двумерного массива.
+
+int[,] GetArray(int m, int n, int min, int max)
 {
     int[,] result = new int[m, n];
 
