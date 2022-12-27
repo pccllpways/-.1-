@@ -1,4 +1,7 @@
-﻿int[,] GetArray(int m, int n, int min, int max)
+﻿// Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая 
+// будет находить строку с наименьшей суммой элементов.
+
+int[,] GetArray(int m, int n, int min, int max)
 {
     int[,] result = new int[m, n];
 
